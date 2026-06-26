@@ -1,0 +1,10 @@
+# 生成个人名片
+username = input('please write down your name:')
+place = input('where are you from:')
+age_of_this_year = input('your age:')
+age = int(age_of_this_year)
+print('==== personal business card ====')
+print(f'name:{username}')
+print(f'city:{place}')
+print(f'now:{age_of_this_year}')
+print(f'next year:{age+1}')
